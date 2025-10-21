@@ -1,0 +1,51 @@
+/* Import the required Google Fonts */
+/* Titles and headings will make use of Roboto Slab  */
+/* Paragraphs and text will be displayed in Fira Sans  */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global styles */
+body {
+    font-family: 'Fira Sans', sans-serif;
+    /* Paragraphs and text  */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Headings and Titles (h1, h2, h3, etc.) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Slab', serif;
+    /* Titles and headings  */
+    color: #004d9c;
+    /* Adjust color based on UNIGE style guide */
+}
+
+/* Style for SVG elements */
+/* You must use selectors (e.g., class or ID) to style SVG elements, not inline styling [cite: 30] */
+.svg-element {
+    fill: steelblue;
+    stroke: black;
+    stroke-width: 1px;
+}
+
+/* Specific Element Styling */
+#main-title {
+    /* Styles for the main H1 title */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.subtitle {
+    /* Styles for the group/member subtitle */
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+/* You can continue to add styles to match the UNIGE styleguide elements  */
